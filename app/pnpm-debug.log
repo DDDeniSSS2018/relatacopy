@@ -1,0 +1,66 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        co: "^4.6.0"
+        cpu-stat: "^2.0.1"
+        discord.js: "^11.4.2"
+        express: "^4.16.4"
+        moment: "^2.24.0"
+        moment-duration-format: "^2.2.2"
+        ms: "^2.1.1"
+        quick.db: "^7.0.0-b22"
+        random-puppy: "^1.1.0"
+        request: "^2.88.0"
+        snekfetch: "^4.0.4"
+        sqlite: "^3.0.3"
+        superagent: "^5.0.5"
+        util: "^0.12.0"
+        ytdl-core: "^0.29.2"
+      engines: 
+        node: "8.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "# music"
+      readmeFilename: "README.md"
+      gitHead: "7a219331d12b9f86c5ef762537eb81b8958c0dd5"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving co that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 warn pnpm: 
+    message: "Moving cpu-stat that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  5 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/cpu-stat"
+      dest: "/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/.ignored/cpu-stat"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/cpu-stat' -> '/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/.ignored/cpu-stat'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/cpu-stat' -> '/rbd/pnpm-volume/806fa977-dc99-4a0d-aead-f29a2f631f37/node_modules/.ignored/cpu-stat'"
